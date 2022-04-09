@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10px"
+        android:gravity="left"
+        android:text="User name"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@null"-->
+<!--        android:hint="Enter new name"-->
+<!--        android:text="" />-->
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="20px"
+        android:layout_gravity="left"
+        android:text="Email"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="20px"
+        android:layout_gravity="left"
+        android:text="Gender"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:paddingTop="20px"
+        android:text="Status"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
